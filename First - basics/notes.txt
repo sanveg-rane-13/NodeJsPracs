@@ -1,0 +1,46 @@
+- Node.js is server side platform built on google chrome's javascript engine V8
+- Used for building fast and scalable server side applications
+- Event driven, non-blocking I/O model that makes it light weight and efficient
+- Programs written in javascript and run on node.js runtime
+
+- Asynchronous, Event Driven, Lightweight and Fast, single threaded.
+- Node.js uses single threaded model with event looping.
+
+- In node everything is reference
+- Same object can be referenced by another variable using '=' operator
+- Operator '==' compares values (19 == '19')-> true
+- Operator '===' compares values along with type. Strict compares
+
+- this keyword: Referes to the thing that called it
+- prototype: 
+    - All objects are prototypes
+    - All objects inherit properties from their prototype
+    - proto property in javascript indicates the parent of the object
+    - Object.prototype is on the top of prototype chain in Javascript language
+    - object.prototype can be directly used to add properties to the object
+
+- modules:
+    - group related code together
+    - export module code and import it in main app.js file
+    - use require and filepath to import modules in code
+    - default behavior is to share the same file with all the requiring module (no different copy)
+
+- object factory:
+    - on sharing object from module, same module is shared with all other requiring modules
+    - object factory creates new object and sends new object to calling modules
+    - factory object creates new default objects so each calling module gets default object copy
+
+- core modules:
+    - node.js has many core modules to help development
+    - avoid path use just module name to import node modules
+    - fs -> file system module.
+        - fs.writeFileSync('file name')
+        - fs.readFileSync('file name')
+    - path -> file path module
+        - normalizes slashes path.normalize(StringPath)
+        - dirname/ basename/ extname
+        
+- asynchronous functions: setTimeOut/ setInterval
+- _dirname/ _filename -> print the directory and file names
+
+        

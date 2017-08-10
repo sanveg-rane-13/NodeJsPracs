@@ -1,0 +1,11 @@
+Connect: node server framework
+------------------------------
+
+- npm install connect : to install the connect framework
+- import the connect module
+- use a variable to connect and pass the object to http.createServer method
+- app.use(function) to call the functions at the beginning
+- The initial function takes three parameters, next as extra parameter.
+- the next parameter in the use function checks for the next object in the stack and starts its execution
+- use() used to call particular function on particular user request
+- 

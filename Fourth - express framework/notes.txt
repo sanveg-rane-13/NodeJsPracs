@@ -1,0 +1,15 @@
+Express framework:
+-----------------
+
+- command to install express: npm install -g express-generator
+- use express command to create new project (express -e myExpressApp)
+- inside project folder use command: npm install
+- npm start to start application
+
+- default localhost post is 3000 (http://localhost:3000)
+
+- www file is startup script. Starts the app.js file
+- public folder contains resources accessible to the users
+- routes: routing to pages default: index and users
+- views are html for each page
+- jade vs EJS: jade doesn't use plain HTML; ejs uses simple html with annotations

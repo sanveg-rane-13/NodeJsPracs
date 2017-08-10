@@ -1,0 +1,11 @@
+- Node js used to create server side code
+- Import the http module to create the server
+- http.createServer(requestFunction) creates the server listening on a particular port
+- The function takes request and response objects as parameters
+- Code in response sent to client side
+
+- FileSystem module (fs) required when returning files from server
+- To return html file we need to return readable stream
+- Pipe thhe stream into the response object .pipe(response)
+
+- Connect: node server framework
